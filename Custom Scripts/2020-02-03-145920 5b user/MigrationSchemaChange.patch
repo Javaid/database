@@ -1,0 +1,32 @@
+diff --git a/Tables/dbo.edges2.sql b/Tables/dbo.edges2.sql
+new file mode 100644
+index 0000000..427279c
+--- /dev/null
++++ b/Tables/dbo.edges2.sql
+@@ -0,0 +1,8 @@
++CREATE TABLE [dbo].[edges2]
++(
++[Source node] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
++[target node] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
++[tdoi] [float] NULL,
++[sdoi] [float] NULL
++) ON [PRIMARY]
++GO
+diff --git a/Tables/dbo.nodes.sql b/Tables/dbo.nodes.sql
+new file mode 100644
+index 0000000..bda7980
+--- /dev/null
++++ b/Tables/dbo.nodes.sql
+@@ -0,0 +1,12 @@
++CREATE TABLE [dbo].[nodes]
++(
++[DOI of a paper] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
++[doi] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
++[Year of publication] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
++[Number of citation] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
++[Title of paper] [text] COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
++[Cluster] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
++[pdoi] [float] NULL,
++[dtm] [date] NULL
++) ON [PRIMARY]
++GO

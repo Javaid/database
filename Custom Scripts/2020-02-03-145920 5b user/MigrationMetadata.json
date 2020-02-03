@@ -1,0 +1,16 @@
+{
+  "Id": "81293b8d-6ff3-41d1-8ac7-f2c5dd2efe3b",
+  "Name": "Covers changes to: edges2, nodes. Script created at 2020-02-03 14:58.",
+  "ObjectIds": [
+    {
+      "Name": "edges2",
+      "Owner": "dbo",
+      "ObjectType": "Table"
+    },
+    {
+      "Name": "nodes",
+      "Owner": "dbo",
+      "ObjectType": "Table"
+    }
+  ]
+}
