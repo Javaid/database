@@ -3,7 +3,7 @@ GO
 SET ANSI_NULLS ON
 GO
 -- =============================================
--- Author:		<Author,,Name>
+-- Author:		Javed Iqbal
 -- Create date: <Create Date,,>
 -- Description:	<Description,,>
 -- =============================================
