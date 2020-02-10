@@ -4,6 +4,7 @@ CREATE TABLE [dbo].[edges]
 [target node] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 [tdoi] [float] NULL,
 [sdoi] [float] NULL,
-[mydatetime] [datetime] NULL
+[mydatetime] [datetime] NULL,
+[javed] [nchar] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
 ) ON [PRIMARY]
 GO
