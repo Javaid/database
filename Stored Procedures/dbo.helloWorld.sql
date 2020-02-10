@@ -13,5 +13,6 @@ AS
 BEGIN
 	SET NOCOUNT ON;
 SELECT * FROM dbo.edges;
+SELECT * FROM dbo.nodes;
 END
 GO
