@@ -5,6 +5,6 @@ CREATE TABLE [dbo].[edges]
 [tdoi] [float] NULL,
 [sdoi] [float] NULL,
 [mydatetime] [datetime] NULL,
-[javed1] [nchar] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
+[javed1] [nchar] (4) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
 ) ON [PRIMARY]
 GO
